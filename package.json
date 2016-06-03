@@ -1,0 +1,15 @@
+{
+  "name": "gfp-eslint-config",
+  "version": "0.1.0",
+  "description": "gfp eslint config",
+  "main": ".eslintrc",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.mrgreen.zone:7999/gar/gfp-eslint-config.git"
+  },
+  "author": "Simon Auner <simon.auner@mrgreen.com>",
+  "license": "ISC"
+}
