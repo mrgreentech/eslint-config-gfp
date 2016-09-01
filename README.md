@@ -9,9 +9,18 @@ This is the config used for all products based on the Green Frontend platform.
 	  ...
 	}
 	```
+2. Run `npm install`
+3. Create `.eslintrc.json` in project:
+	```
+	{
+	    "extends": [
+	        "./node_modules/gfp-eslint-config/.eslintrc"
+	    ]
+	}
+	```
 2. Add lint script in package.json
 	```
 	"scripts": {
-      "lint": "eslint node_modules/gfp-eslint-config/.eslintrc --fix"
+      "lint": "eslint"
     },
     ```
