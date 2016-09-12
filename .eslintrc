@@ -9,7 +9,7 @@
     "angular"
   ],
   "extends": [
-    "airbnb/legacy"
+    "airbnb-base/legacy"
   ],
   "rules": {
     // force 4-space indentation, force switch blocks to be indented
@@ -39,7 +39,15 @@
     "quote-props": 0,
     // don't warn about padded blocks
     "padded-blocks": 0,
-    "brace-style": 0
+    "brace-style": 0,
+    // allow using prototype methods on Object
+    "no-prototype-builtins": 0,
+    // allow usage of ++
+    "no-plusplus": 0,
+    // allow "useless" escape (we use it for escaping URLs)
+    "no-useless-escape": 0,
+    // allow underscore dangle (Kambi's global object)
+    "no-underscore-dangle": 0
   },
   "globals": {
     // "false" indicates that we do not allow reassigning the global

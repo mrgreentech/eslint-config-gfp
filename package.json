@@ -14,5 +14,13 @@
   "license": "ISC",
   "publishConfig": {
     "registry": "http://npm.mrgreen.zone:1080/"
+  },
+  "dependencies": {
+    "eslint": "3.x",
+    "eslint-config-airbnb-base": "7.x",
+    "eslint-plugin-angular": "1.x",
+    "eslint-plugin-import": "1.x",
+    "eslint-plugin-jasmine": "1.x",
+    "eslint-plugin-jsx-a11y": "2.x"
   }
 }
