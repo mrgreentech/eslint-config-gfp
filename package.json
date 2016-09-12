@@ -1,6 +1,6 @@
 {
   "name": "gfp-eslint-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "gfp eslint config",
   "main": ".eslintrc",
   "scripts": {
@@ -13,6 +13,6 @@
   "author": "Simon Auner <simon.auner@mrgreen.com>",
   "license": "ISC",
   "publishConfig": {
-    "registry":"http://my-internal-registry.local"
+    "registry": "http://my-internal-registry.local"
   }
 }
