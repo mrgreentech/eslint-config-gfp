@@ -13,6 +13,6 @@
   "author": "Simon Auner <simon.auner@mrgreen.com>",
   "license": "ISC",
   "publishConfig": {
-    "registry": "http://my-internal-registry.local"
+    "registry": "http://npm.mrgreen.zone:1080/"
   }
 }
