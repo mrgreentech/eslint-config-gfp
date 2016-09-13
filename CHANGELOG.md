@@ -1,3 +1,7 @@
+### 2.1.0
+* Added rule linebreka-style with value 0.
+* Added gitignore
+
 ### 2.0.1
 * Updated README
 
@@ -7,5 +11,4 @@
 
 
 ### 1.0.0
-
 * First version
