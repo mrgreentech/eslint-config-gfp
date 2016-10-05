@@ -1,3 +1,6 @@
+### 2.3.0
+* Added `'prefer-template': 0` to `browser.js` rules. The need for this is when the root `eslintrc` of a project uses the node.js rules but the web app src wants to use the browser rules.
+
 ### 2.2.0
 * Removing the override of `"brace-style"` that ignored brace-style not aheering to the rules. Now we warn about braces not adheering to `"1tbs"`. Soon we will also error code that does not embrace `"1tbs"`.
 * Introduced `node` ruleset to support both browser and node projects.
