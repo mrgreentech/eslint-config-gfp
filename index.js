@@ -1,5 +1,5 @@
 module.exports = {
     'extends': [
-        './browser.js'
+        'gfp/browser'
     ]
 };

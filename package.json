@@ -1,22 +1,25 @@
 {
-  "name": "gfp-eslint-config",
+  "name": "eslint-config-gfp",
   "version": "2.3.0",
-  "description": "gfp eslint config",
+  "description": "The config used for all products based on the Green Frontend platform",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
   "main": ".eslintrc",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.mrgreen.zone:7999/gar/gfp-eslint-config.git"
+    "url": "https://github.com/mrgreentech/eslint-config-gfp.git"
   },
   "author": "Simon Auner <simon.auner@mrgreen.com>",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "http://npm.mrgreen.zone:1080/"
+  "peerDependencies": {
+    "eslint": ">= 3"
   },
   "dependencies": {
-    "eslint": "3.x",
     "eslint-config-airbnb-base": "7.x",
     "eslint-plugin-angular": "1.x",
     "eslint-plugin-import": "1.x",

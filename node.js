@@ -9,7 +9,7 @@ module.exports = {
     ],
     'extends': [
         'airbnb-base/legacy',
-        './rules/base.js'
+        'gfp/rules/base'
     ],
     rules: {
         // disallow modifying variables that are declared using const

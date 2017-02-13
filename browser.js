@@ -9,12 +9,11 @@ module.exports = {
     ],
     'globals': {
         // "false" indicates that we do not allow reassigning the global
-        'angular': false,
-        'Firebase': false
+        'angular': false
     },
     'extends': [
         'airbnb-base/legacy',
-        './rules/base.js'
+        'gfp/rules/base'
     ],
     'rules': {
         // allow "useless" escape (we use it for escaping URLs)

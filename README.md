@@ -1,33 +1,26 @@
 This is the config used for all products based on the Green Frontend platform.
 
 # How to use
-1. Add `.npmrc` file to your project:
+1. Install package:
 	```
-	registry = http://npm.mrgreen.zone:1080/
+	npm install --save-dev eslint eslint-config-gfp
 	```
-2. Install package:
-	```
-	npm install --save-dev gfp-eslint-config
-	```
-3. Create `.eslintrc.json` in project.
+2. Create `.eslintrc.json` in project.
 	To use our **browser rules** (comes with angular environment, made for ES5):
 	```
 	{
-	    "extends": [
-	        "./node_modules/gfp-eslint-config/.eslintrc"
-	    ]
+	    "extends": "gfp"
 	}
 	```
 
 	To use our **node JS rules** (made for ES6 progressively), use:
 	```
 	{
-	    "extends": [
-	        "./node_modules/gfp-eslint-config/node.js"
-	    ]
+	    "extends": "gfp/node"
 	}
 	```
-2. Add lint script in package.json
+
+3. Add lint script in package.json
 	```
 	"scripts": {
       "lint": "eslint *.js"
