@@ -1,7 +1,7 @@
 module.exports = {
-    'rules': {
+    rules: {
         // force 4-space indentation, force switch blocks to be indented
-        'indent': [2, 4, { 'SwitchCase': 1 }],
+        indent: [2, 4, { SwitchCase: 1 }],
         'space-before-function-paren': [2, 'never'],
         'func-names': 0,
         // allow vars to be declared in nested funcs
@@ -20,7 +20,7 @@ module.exports = {
         // var p = Person();
         // Not allowed:
         // var p = new person();
-        'new-cap': [2, { 'capIsNew': false }],
+        'new-cap': [2, { capIsNew: false }],
         // allow to log to console
         'no-console': 0,
         // don't warn about unnecessarily quoted props
@@ -32,8 +32,11 @@ module.exports = {
         // allow usage of ++
         'no-plusplus': 0,
         // don't warn about inconsitent windows/unix linebreaks
-        'linebreak-style': 0
+        'linebreak-style': 0,
+        // allow any IIFE style:
+        // (function() {}())
+        // (function() {})()
+        'wrap-iife': 'any'
     },
-    'globals': {
-    }
+    globals: {}
 };

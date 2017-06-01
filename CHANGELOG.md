@@ -1,3 +1,10 @@
+### 2.3.1
+* Allow any style of IIFE's since prettier wants to write call arguments after the wrapping paranthesis.
+	Now both following styles are allowed:
+	`(function() {}())`
+	`(function() {})()`
+	Before only the top one was allowed.
+
 ### 2.3.0
 * Added `'prefer-template': 0` to `browser.js` rules. The need for this is when the root `eslintrc` of a project uses the node.js rules but the web app src wants to use the browser rules.
 
