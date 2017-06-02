@@ -36,7 +36,7 @@ module.exports = {
         // allow any IIFE style:
         // (function() {}())
         // (function() {})()
-        'wrap-iife': 'any'
+        'wrap-iife': ['error', 'any']
     },
     globals: {}
 };

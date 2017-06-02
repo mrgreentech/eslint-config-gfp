@@ -1,3 +1,6 @@
+### 2.3.2
+* Fixed wrong declaration of `wrap-iife`
+
 ### 2.3.1
 * Allow any style of IIFE's since prettier wants to write call arguments after the wrapping paranthesis.
 	Now both following styles are allowed:
