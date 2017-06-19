@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gfp",
-  "version": "3.0.0-rc1",
+  "version": "2.3.2",
   "description": "The config used for all products based on the Green Frontend platform",
   "keywords": [
     "eslint",
