@@ -1,3 +1,22 @@
+### 3.0.0
+* Updated dependencies `eslint-config-airbnb-base 11` (from 7), `eslint-plugin-angular 2` (from 1), `eslint-plugin-import 2` (from 1), `eslint-plugin-jasmine 2 (from 1)
+
+#### Updated rules
+
+**Browser**
+
+* Force seting `var viewModel = this;` in controllers (breaking)
+* Do not allow assigning to `$scope`, thus force using `controllerAs` syntax (breaking)
+* Disallow unused DI parameters (breaking)
+* Disallow the use of `$http` `success()` and `error()` (breaking)
+* Force DI parameters to be sorted alphabetically (breaking)
+* Disallow focused tests (to be checked in) (breaking)
+
+**General**
+
+* Disallow unused variables except when they're arguments (breaking)
+
+
 ### 2.3.2
 * Fixed wrong declaration of `wrap-iife`
 

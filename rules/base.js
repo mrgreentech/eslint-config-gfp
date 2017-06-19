@@ -8,8 +8,8 @@ module.exports = {
         'vars-on-top': 0,
         // don't care about max-length
         'max-len': 0,
-        // allow unused variables
-        'no-unused-vars': 0,
+        // allow unused variables only when arguments to a function
+        'no-unused-vars': ['error', {args: 'none'}]
         // allow to reference functions that are defined below
         'no-use-before-define': 0,
         // allow to reassign parameters
