@@ -9,7 +9,7 @@ module.exports = {
         // don't care about max-length
         'max-len': 0,
         // allow unused variables only when arguments to a function
-        'no-unused-vars': ['error', {args: 'none'}]
+        'no-unused-vars': ['error', { args: 'none' }],
         // allow to reference functions that are defined below
         'no-use-before-define': 0,
         // allow to reassign parameters
@@ -36,7 +36,9 @@ module.exports = {
         // allow any IIFE style:
         // (function() {}())
         // (function() {})()
-        'wrap-iife': ['error', 'any']
+        'wrap-iife': ['error', 'any'],
+        // do not force lines around directives such as "use strict"
+        'lines-around-directive': 0
     },
     globals: {}
 };

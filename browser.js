@@ -28,8 +28,8 @@ module.exports = {
         // disallow the use of $http success() and error()
         'angular/no-http-callback': 2,
         // force DI parameters to be sorted alphabetically
-        'angular/di-order': 2
+        'angular/di-order': 2,
         // disallow focused tests (to be checked in)
-        'no-focused-tests': 2
+        'jasmine/no-focused-tests': 2
     }
 };
