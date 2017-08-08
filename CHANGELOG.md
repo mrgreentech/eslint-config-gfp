@@ -1,3 +1,6 @@
+### 3.0.1
+* Change `angular/di-order` to not care about casing when sorting (compatible with Sublime's sorting).
+
 ### 3.0.0
 * Updated dependencies `eslint-config-airbnb-base 11` (from 7), `eslint-plugin-angular 2` (from 1), `eslint-plugin-import 2` (from 1), `eslint-plugin-jasmine 2 (from 1)
 
