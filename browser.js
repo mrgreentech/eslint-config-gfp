@@ -27,8 +27,8 @@ module.exports = {
         'angular/di-unused': 2,
         // disallow the use of $http success() and error()
         'angular/no-http-callback': 2,
-        // force DI parameters to be sorted alphabetically, but don't sort by case
-        'angular/di-order': [2, true, 'case_insensitive'],
+        // force DI parameters to be sorted alphabetically, but don't sort by case, and do not strip away underscores (to be compatible with Sublime's sorting)
+        'angular/di-order': [2, false, 'case_insensitive'],
         // disallow focused tests (to be checked in)
         'jasmine/no-focused-tests': 2
     }

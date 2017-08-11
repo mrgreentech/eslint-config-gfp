@@ -1,3 +1,7 @@
+### 3.0.2
+* Change `angular/di-order` to not care about underscores when sorting (compatible with Sublime's sorting).
+
+
 ### 3.0.1
 * Change `angular/di-order` to not care about casing when sorting (compatible with Sublime's sorting).
 
