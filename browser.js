@@ -8,7 +8,7 @@ module.exports = {
         // "false" indicates that we do not allow reassigning the global
         angular: false
     },
-    extends: ['airbnb-base/legacy', 'gfp/rules/base'],
+    extends: ['airbnb-base/legacy', 'gfp/rules/base', 'gfp/rules/es6'],
     rules: {
         // allow "useless" escape (we use it for escaping URLs)
         'no-useless-escape': 0,

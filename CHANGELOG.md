@@ -1,3 +1,6 @@
+### 4.0.0
+* Updated linter to lint ES6
+
 ### 3.0.2
 * Change `angular/di-order` to not care about underscores when sorting (compatible with Sublime's sorting).
 
