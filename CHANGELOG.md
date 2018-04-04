@@ -1,3 +1,6 @@
+### 4.0.1
+* Made browser run env ES6
+
 ### 4.0.0
 * Updated linter to lint ES6
 

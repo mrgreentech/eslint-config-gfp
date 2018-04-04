@@ -1,7 +1,8 @@
 module.exports = {
     env: {
         jasmine: true,
-        'angular/mocks': true
+        'angular/mocks': true,
+        'es6': true
     },
     plugins: ['jasmine', 'angular'],
     globals: {
