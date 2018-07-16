@@ -1,3 +1,7 @@
+### 4.1.2
+
+* Removed arrow-body-style and prefer-destructuring
+
 ### 4.1.1
 
 * Added always to array-body-style rule
