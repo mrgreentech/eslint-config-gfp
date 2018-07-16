@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        'arrow-body-style': 2,
+        'arrow-body-style': [2, 'always'],
         'arrow-spacing': [2, { 'before': true, 'after': true }],
         'no-const-assign': 2,
         'no-duplicate-imports': 2,

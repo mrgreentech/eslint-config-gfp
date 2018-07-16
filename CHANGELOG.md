@@ -1,3 +1,7 @@
+### 4.1.1
+
+* Added always to array-body-style rule
+
 ### 4.1.0
 * Made browser run env ES6
 
