@@ -1,3 +1,7 @@
+### 4.2.1
+
+* Fixed protractor rules that was broken
+
 ### 4.2.0
 
 * Added protractor support
