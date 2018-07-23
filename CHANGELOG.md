@@ -1,3 +1,8 @@
+### 4.2.0
+
+* Added protractor support
+
+
 ### 4.1.2
 
 * Removed arrow-body-style and prefer-destructuring

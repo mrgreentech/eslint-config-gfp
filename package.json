@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gfp",
-  "version": "4.1.2",
+  "version": "4.2.0",
   "description": "The config used for all products based on the Green Frontend platform",
   "keywords": [
     "eslint",
@@ -24,6 +24,7 @@
     "eslint-plugin-angular": "^2.5.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jasmine": "^2.3.1",
-    "eslint-plugin-jsx-a11y": "2.x"
+    "eslint-plugin-jsx-a11y": "2.x",
+    "eslint-plugin-protractor": "^1.40.0"
   }
 }
