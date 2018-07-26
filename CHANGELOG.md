@@ -1,3 +1,7 @@
+### 4.3.0
+
+* Added support for React and Jest
+
 ### 4.2.1
 
 * Fixed protractor rules that was broken
