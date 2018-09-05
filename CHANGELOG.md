@@ -1,3 +1,6 @@
+### 4.3.2
+ * Fixed bugs with React and Jest configuration
+
 ### 4.3.1
 
 * Removed protractor/no-by-xpath and protractor/missing-wait-message from protractor eslint config
