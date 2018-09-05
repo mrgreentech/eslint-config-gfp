@@ -5,7 +5,14 @@ This is the config used for all products based on the Green Frontend platform.
 	```
 	npm install --save-dev eslint eslint-config-gfp
 	```
-2. Create `.eslintrc.json` in project.
+
+2. Add lint script in package.json
+	```
+	"scripts": {
+      "lint": "eslint *.js"
+    },
+    ```
+3. Create `.eslintrc.json` in the root of the project.
 	To use our **browser rules** (comes with angular environment, made for ES5):
 	```
 	{
@@ -19,13 +26,20 @@ This is the config used for all products based on the Green Frontend platform.
 	    "extends": "gfp/node"
 	}
 	```
-
-3. Add lint script in package.json
+	
+	To use our **React JS rules** (including JSX support), use:
 	```
-	"scripts": {
-      "lint": "eslint *.js"
-    },
-    ```
+	{
+	    "extends": "gfp/react"
+	}
+	```
+	
+	To use our **Jest JS rules**, use:
+	```
+	{
+	    "extends": "gfp/jest"
+	}
+	```
 
 # Contributing
 

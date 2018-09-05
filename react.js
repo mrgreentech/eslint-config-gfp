@@ -28,5 +28,6 @@ module.exports = {
         'react/jsx-key': 2,
         'react/jsx-no-duplicate-props': 2,
         'react/jsx-uses-vars': 2,
+        'react/jsx-uses-react': 2
     }
 };

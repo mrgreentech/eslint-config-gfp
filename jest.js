@@ -6,7 +6,7 @@ module.exports = {
         'jest': true
     },
     'plugins': [
-        'react'
+        'jest'
     ],
     'extends': [
         'airbnb-base/legacy',
