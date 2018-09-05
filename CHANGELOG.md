@@ -1,5 +1,5 @@
 ### 4.3.2
- * Fixed bugs with React and Jest configuration
+ * Fixed bugs with Jest configuration and added react/jsx-uses-react for React configuration
 
 ### 4.3.1
 
