@@ -1,3 +1,7 @@
+### 4.4.0
+
+* Added React Native support
+
 ### 4.3.2
  * Fixed bugs with Jest configuration and added react/jsx-uses-react for React configuration
 
