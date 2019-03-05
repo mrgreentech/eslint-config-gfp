@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "eslint-config-airbnb-base": "^11.2.0",
+        "eslint-config-prettier": "^4.1.0",
         "eslint-plugin-angular": "^2.5.0",
         "eslint-plugin-import": "^2.2.0",
         "eslint-plugin-jasmine": "^2.3.1",
