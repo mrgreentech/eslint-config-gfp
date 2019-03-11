@@ -47,6 +47,13 @@ This is the config used for all products based on the Green Frontend platform.
 	    "extends": "gfp/jest"
 	}
 	```
+	
+	If you are using **Prettier** with any of our eslint configurations, add:
+	```
+	{
+	    "extends": "gfp/prettier"
+	}
+	```
 
 # Contributing
 
