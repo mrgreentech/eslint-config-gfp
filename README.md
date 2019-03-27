@@ -33,11 +33,25 @@ This is the config used for all products based on the Green Frontend platform.
 	    "extends": "gfp/react"
 	}
 	```
+
+    To use our **React Native JS rules** (including JSX support), use:
+	```
+	{
+	    "extends": "gfp/react-native"
+	}
+	```
 	
 	To use our **Jest JS rules**, use:
 	```
 	{
 	    "extends": "gfp/jest"
+	}
+	```
+	
+	If you are using **Prettier** with any of our eslint configurations, add:
+	```
+	{
+	    "extends": "gfp/prettier"
 	}
 	```
 
