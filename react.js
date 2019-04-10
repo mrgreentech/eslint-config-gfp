@@ -12,6 +12,7 @@ module.exports = {
         'gfp/rules/base',
         'gfp/rules/es6'
     ],
+    parser: 'babel-eslint',
     rules: {
         'prefer-destructuring': 2,
         'react/no-deprecated': 2,
